@@ -1,7 +1,7 @@
 
 # Homem de ferro
 
-![](./img/capturar.png)
+![](./img/Capturar.png)
 
 ---
 
