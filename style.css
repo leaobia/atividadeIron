@@ -35,18 +35,15 @@ nav ul li{
 
 nav ul li:hover {
     border-bottom: 3px solid  #8A2D5E;
+    transition: all ease-in .5S;
+    
 }
 .icones i{
     margin: 0 8px;
     font-size: 1.2rem;
     cursor: pointer;
 }
-.icones i:nth-child(3){
-    align-items: center;
-    border: #505050 2.9px solid;
-    border-bottom: 3.5px solid #505050;
-    border-radius: 50%;
-}
+
 .apresentando{
     margin-left: 157px;
     margin-top: 5vh;
@@ -91,8 +88,10 @@ nav ul li:hover {
 }
 .btn{
     background-color: #383838;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
     color: #FFFF;
+    height: 6vh;
     width: 23%;
     border: none;
     padding: 12px;
@@ -147,6 +146,23 @@ li {
     text-decoration: none;
     width: 5%;
     gap: 5px;
+    place-items: center;
+    font-size: 44px;}
+  
+    .twitter{
+        color: #1DA1F2;
+    }
+    .github{
+        color: #000;
+    }
+    .figma{
+        color: #000;
+    }
+    .instagram{
+        color: #000;
+    }
+    Footer
+    © 2022 GitHub, 
     
 }
 .social-icon{
